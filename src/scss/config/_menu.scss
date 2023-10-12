@@ -123,13 +123,28 @@
 
   @media (max-width: 450px) {
 
-    .header-logo{
-      width: 130px;
-      height: 43px;
-      margin-top: 5px;
+    .header_burger{
+      width: 40px;
+    height: 30px;
     }
    
-    
+
+    .header_burger::before {
+      top: -3px;
+    }
+    .header_burger::after {
+      bottom: 5px;
+  
+    }
+
+    .header_burger.active:after {
+      transform: rotate(-45deg);
+      bottom: 14PX;
+    }
+    .header_burger.active:before {
+      transform: rotate(45deg);
+      top: 13PX;
+    }
   }
 
   
