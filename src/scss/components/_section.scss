@@ -6,13 +6,13 @@
 }
 .section_img img{
     
-    width: 528px;
-    height: 528px;
+    max-width: 528px;
+    max-height: 528px;
 }
 
 .main-section{
     
-    margin: 145px 272px 0px 81px
+    margin: 145px auto 0px 81px
 }
 
 .section_text-heading{
@@ -31,7 +31,7 @@
 }
 
 .text{
-    width: 803px;
+    max-width: 803px;
     display: flex;
     line-height: 30px;
     margin: 44px auto;
@@ -43,6 +43,31 @@
     
 }
 
+.botton-media{
+    
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.botton-media button{
+    height: 62px;
+    padding: 13px 46px;
+    color: white;
+    background-color: #333333;
+    border-radius: 28.96px;
+}
+.btn-kontakt{
+    margin-left: 15px;
+    border: 3px solid #FFFFFF;
+    
+}
+.btn-portfolio{
+    border: 3px solid #007CED;
+}
+
+
 @media (max-width: 1800px ) {
 
     .section_position{
@@ -52,25 +77,25 @@
         flex-wrap: wrap;
     }
     .main-section{
-        margin-top: 35px;
+        
         flex-wrap: wrap;
     }
 
     @media (max-width: 800px ){
         .main-section{
-            margin-left: 4px;
+            margin-left: 15px;
             width: auto;
 
         }
         .section_img{
             margin-top: 30px;
         }
-        .text{
-            width: auto;
-        }
+       
     .text p {
         hyphens: manual;
         
     } 
+
+    
 }
 }
