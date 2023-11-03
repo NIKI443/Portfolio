@@ -1,0 +1,169 @@
+.kart-google{
+    max-width: 1700px;
+    margin: auto;
+    margin-top: 27px;
+}
+
+.kontakt{
+    display: grid;
+    grid-template-columns: 511px 107px 1088px;
+    max-width: 1700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.kontskt_my{
+    display: grid;
+    grid-template-columns: 100px 412px;
+    grid-template-rows: 120px 120px 95px;
+}
+.info-text_kontakt{
+    padding-top: 13px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.info-text_kontakt:nth-last-child(1){
+    grid-row-start: 2;   
+}
+.info-text_kontakt:nth-last-child(2){
+    grid-row-start: 3;
+}
+
+.kart_svg{
+    padding: 33px 21px 53px 0;
+}
+.email_svg{
+    padding-left: 3px;
+}
+.phone_svg{
+    padding-right: 2px;
+}
+
+.kontact_you{
+    padding-top: 19px;
+    grid-column-start: 3;
+}
+
+.kontact-you_inpots{
+    display: grid;
+    grid-template-columns: 512px 34px 538px;
+
+}
+.submit{
+    color: white;
+    font-size: 20px;
+    background-color:#333333;
+    margin-top: 10px;
+    border-radius: 28.96px;
+    padding: 11px 39px 10px 38px ;
+}
+.kontakt_input{
+    color: rgba(255, 255, 255, 0.500);
+    background-color:#222222;
+    border: 2px solid #555555;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    height: 53px;
+    width: 100%;
+    font-size: 18px;
+}
+.information{
+    grid-column-start: 3;
+}
+.message{
+    font-family: "Poppins";
+    resize: none;
+    height: 212px;
+   
+}
+
+
+@media (max-width: 1720px) {
+    .kart-google iframe{
+        width: 1000px;
+    }
+    .kart-google{
+        max-width: 1000px;
+    }
+    .kontakt{
+        grid-template-columns: 430px 0 520px;
+        margin: auto;
+        max-width: 1000px;
+    }
+    .kontact-you_inpots{
+        grid-template-columns: 270px 30px 270px;
+    }
+    .kontskt_my {
+        
+        grid-template-columns: 90px 323px;
+       
+    }
+    .kontskt_my {
+        grid-template-rows: 100px 100px 100px;
+    }
+    .kart_svg {
+        padding: 18px 21px 20px 0;
+    }
+    .message {
+        height: 132px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .kart-google iframe{
+        width: 620px;
+    }
+    .kart-google{
+        max-width: 620px;
+    }
+    .kontskt_my{
+        display: none;
+    }
+    .kontakt{
+        grid-template-columns: 580px 0 0;
+        
+        max-width: 575px;
+    }
+    .kontact_you {
+        padding-top: 19px;
+        grid-column-start: 1;
+    }
+}
+
+
+@media (max-width: 620px){
+    .kart-google iframe{
+        width: 100%;
+        height: 175px;
+    }
+    .kart-google{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .kontakt{
+        grid-template-columns: 270px 0 0;
+        max-width: 280px;
+    }
+
+    .kontact-you_inpots{
+        grid-template-columns: 270px 0 0;
+    }
+    .information {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+   .kontact-inport{
+    grid-column-start: 1;
+    grid-row-start: 1;
+   }
+   .message {
+    margin-top: 246px;
+    height: 132px;
+}
+.submit{
+    margin-top: 170px;
+}
+}
