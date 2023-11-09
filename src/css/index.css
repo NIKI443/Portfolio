@@ -518,14 +518,14 @@ header::before {
   }
   .header_burger.active:after {
     transform: rotate(-45deg);
-    bottom: 14PX;
+    bottom: 14px;
   }
   .header_burger.active span {
     transform: scale(0);
   }
   .header_burger.active:before {
     transform: rotate(45deg);
-    top: 13PX;
+    top: 13px;
   }
   .header_nav {
     position: fixed;
@@ -561,11 +561,11 @@ header::before {
   }
   .header_burger.active:after {
     transform: rotate(-45deg);
-    bottom: 14PX;
+    bottom: 14px;
   }
   .header_burger.active:before {
     transform: rotate(45deg);
-    top: 13PX;
+    top: 13px;
   }
 }
 .section_position {
@@ -1554,5 +1554,104 @@ footer {
   }
   .submit {
     margin-top: 170px;
+  }
+}
+.klient {
+  max-width: 1106px;
+  margin: auto;
+}
+.klient__item {
+  display: flex;
+  padding: 26px 0 51px;
+}
+.klient__item-link {
+  margin-right: 134px;
+}
+
+.galerie__link-btn {
+  border: none;
+  color: rgba(255, 255, 255, 0.505);
+  background: transparent;
+  text-decoration: none;
+  margin-right: 49px;
+}
+
+.galerie__img {
+  padding-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 475px;
+  height: 270px;
+  margin: 10px;
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.white {
+  color: white;
+}
+
+.porfolio {
+  margin-left: 123px;
+}
+
+@media (max-width: 1230px) {
+  .klient {
+    max-width: 844px;
+    margin: auto;
+  }
+  .klient__item-link {
+    margin-right: 50px;
+  }
+  .porfolio {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 810px) {
+  .klient__item {
+    flex-wrap: wrap;
+    padding: 0 0 25px;
+  }
+  .klient__item-link {
+    margin-top: 15px;
+    margin-right: 134px;
+  }
+}
+@media (max-width: 620px) {
+  .porfolio {
+    margin-left: 20px;
+  }
+  .img {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+  }
+  .galerie__link-btn {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 620px) {
+  .img {
+    width: 320px;
+    height: 181px;
+    margin: 10px;
+  }
+  .galerie__link-btn {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 620px) {
+  .galerie__link-btn {
+    margin-right: 0;
   }
 }/*# sourceMappingURL=index.css.map */
