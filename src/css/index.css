@@ -518,14 +518,14 @@ header::before {
   }
   .header_burger.active:after {
     transform: rotate(-45deg);
-    bottom: 14PX;
+    bottom: 14px;
   }
   .header_burger.active span {
     transform: scale(0);
   }
   .header_burger.active:before {
     transform: rotate(45deg);
-    top: 13PX;
+    top: 13px;
   }
   .header_nav {
     position: fixed;
@@ -561,11 +561,11 @@ header::before {
   }
   .header_burger.active:after {
     transform: rotate(-45deg);
-    bottom: 14PX;
+    bottom: 14px;
   }
   .header_burger.active:before {
     transform: rotate(45deg);
-    top: 13PX;
+    top: 13px;
   }
 }
 .section_position {
@@ -629,9 +629,21 @@ header::before {
   margin-left: 15px;
   border: 3px solid #ffffff;
 }
+.btn-kontakt:hover {
+  color: rgb(211, 211, 211);
+}
 
 .btn-portfolio {
   border: 3px solid #007ced;
+  transition-duration: 150ms;
+}
+.btn-portfolio:hover {
+  color: rgb(211, 211, 211);
+}
+
+.btn-media__link {
+  color: white;
+  text-decoration: none;
 }
 
 .my-skill {
@@ -1555,4 +1567,37 @@ footer {
   .submit {
     margin-top: 170px;
   }
+}
+.galerie__link-btn {
+  border: none;
+  color: rgba(255, 255, 255, 0.505);
+  background: transparent;
+  text-decoration: none;
+  margin-right: 49px;
+}
+
+.galerie__img {
+  padding-top: 24px;
+}
+
+.img {
+  width: 475px;
+  height: 270px;
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.white {
+  color: white;
+}
+
+.porfolio {
+  margin-left: 123px;
 }/*# sourceMappingURL=index.css.map */

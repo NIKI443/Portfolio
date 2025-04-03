@@ -1,0 +1,30 @@
+.galerie {
+	&__link-btn {
+		border: none;
+		color: rgba(255, 255, 255, 0.505);
+		background: transparent;
+		text-decoration: none;
+		margin-right: 49px;
+	}
+}
+.galerie__img {
+	padding-top: 24px;
+}
+.img {
+	width: 475px;
+	height: 270px;
+	display: none;
+}
+
+.display {
+	display: block;
+}
+.display-none {
+	display: none;
+}
+.white {
+	color: white;
+}
+.porfolio {
+	margin-left: 123px;
+}
